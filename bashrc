@@ -2,8 +2,6 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-bind "set completion-ignore-case on"
-
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -18,8 +16,8 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=10000
-HISTFILESIZE=20000
+HISTSIZE=1000
+HISTFILESIZE=2000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -107,6 +105,15 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+if [ -f ~/.bash_functions ]; then
+    . ~/.bash_functions
+fi
+
+if [ -f ~/.kubectl_aliases ]; then
+    . ~/.kubectl_aliases
+fi
+
+#
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -117,21 +124,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+yq() {
+  docker run --rm -i -v "${PWD}":/workdir mikefarah/yq "$@"
+}
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/bruno/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/bruno/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/bruno/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/bruno/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+# Added by Amplify CLI binary installer
+export PATH="$HOME/.amplify/bin:$PATH"
