@@ -1,3 +1,156 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
+[submodule "vim/plugged/vim-pathogen"]
+	path = vim/plugged/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen.git
+[submodule "vim-atom-dark"]
+	path = vim/pluggedvim-atom-dark
+	url = https://github.com/gosukiwi/vim-atom-dark.git
+[submodule "nerdtree"]
+	path = vim/pluggednerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim-rails"]
+	path = vim/pluggedvim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "nerdcommenter"]
+	path = vim/pluggednerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "vim-airline"]
+	path = vim/pluggedvim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "syntastic"]
+	path = vim/pluggedsyntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "vim-fugitive"]
+	path = vim/pluggedvim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "ctrlp.vim"]
+	path = vim/pluggedctrlp.vim
+	url = git@github.com:kien/ctrlp.vim.git
+[submodule "supertab"]
+	path = vim/pluggedsupertab
+	url = git@github.com:ervandew/supertab.git
+[submodule "vim-endwise"]
+	path = vim/pluggedvim-endwise
+	url = git@github.com:tpope/vim-endwise.git
+[submodule "tabular"]
+	path = vim/pluggedtabular
+	url = git@github.com:godlygeek/tabular.git
+[submodule "ag.vim"]
+	path = vim/pluggedag.vim
+	url = git@github.com:rking/ag.vim.git
+[submodule "matchit"]
+	path = vim/pluggedmatchit
+	url = git@github.com:tmhedberg/matchit.git
+[submodule "vim-surround"]
+	path = vim/pluggedvim-surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "YankRing.vim"]
+	path = vim/pluggedYankRing.vim
+	url = git@github.com:vim-scripts/YankRing.vim.git
+[submodule "gundo.vim"]
+	path = vim/pluggedgundo.vim
+	url = git@github.com:sjl/gundo.vim.git
+[submodule "vim-textobj-user"]
+	path = vim/pluggedvim-textobj-user
+	url = git@github.com:kana/vim-textobj-user.git
+[submodule "gist-vim"]
+	path = vim/pluggedgist-vim
+	url = git@github.com:mattn/gist-vim.git
+[submodule "vim-cucumber"]
+	path = vim/pluggedvim-cucumber
+	url = git@github.com:tpope/vim-cucumber.git
+[submodule "gruvbox"]
+	path = vim/pluggedgruvbox
+	url = git@github.com:morhetz/gruvbox.git
+[submodule "vim-unimpaired"]
+	path = vim/pluggedvim-unimpaired
+	url = git@github.com:tpope/vim-unimpaired.git
+[submodule "vim/plugged/tabular"]
+	path = vim/plugged/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "vim/plugged/fzf.vim"]
+	path = vim/plugged/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "vim/plugged/vim-unimpaired"]
+	path = vim/plugged/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "vim/plugged/gist-vim"]
+	path = vim/plugged/gist-vim
+	url = https://github.com/mattn/gist-vim.git
+[submodule "vim/plugged/vim-endwise"]
+	path = vim/plugged/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
+[submodule "vim/plugged/vim-atom-dark"]
+	path = vim/plugged/vim-atom-dark
+	url = https://github.com/gosukiwi/vim-atom-dark.git
+[submodule "vim/plugged/NrrwRgn"]
+	path = vim/plugged/NrrwRgn
+	url = https://github.com/chrisbra/NrrwRgn.git
+[submodule "vim/plugged/vim-textobj-rubyblock"]
+	path = vim/plugged/vim-textobj-rubyblock
+	url = https://github.com/nelstrom/vim-textobj-rubyblock.git
+[submodule "vim/plugged/gundo.vim"]
+	path = vim/plugged/gundo.vim
+	url = https://github.com/sjl/gundo.vim.git
+[submodule "vim/plugged/vim-gitgutter"]
+	path = vim/plugged/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "vim/plugged/syntastic"]
+	path = vim/plugged/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "vim/plugged/gruvbox"]
+	path = vim/plugged/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
+[submodule "vim/plugged/vim-tmux-navigator"]
+	path = vim/plugged/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git
+[submodule "vim/plugged/YankRing.vim"]
+	path = vim/plugged/YankRing.vim
+	url = https://github.com/vim-scripts/YankRing.vim.git
+[submodule "vim/plugged/vim-airline"]
+	path = vim/plugged/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "vim/plugged/vim-agriculture"]
+	path = vim/plugged/vim-agriculture
+	url = https://github.com/jesseleite/vim-agriculture.git
+[submodule "vim/plugged/nerdcommenter"]
+	path = vim/plugged/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "vim/plugged/vim-textobj-user"]
+	path = vim/plugged/vim-textobj-user
+	url = https://github.com/kana/vim-textobj-user.git
+[submodule "vim/plugged/vim-qf"]
+	path = vim/plugged/vim-qf
+	url = https://github.com/romainl/vim-qf.git
+[submodule "vim/plugged/nerdtree"]
+	path = vim/plugged/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim/plugged/supertab"]
+	path = vim/plugged/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "vim/plugged/vim-ruby"]
+	path = vim/plugged/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "vim/plugged/vim-fugitive"]
+	path = vim/plugged/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/plugged/vim-rails"]
+	path = vim/plugged/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "vim/plugged/vim-surround"]
+	path = vim/plugged/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "vim/plugged/neocomplete.vim"]
+	path = vim/plugged/neocomplete.vim
+	url = https://github.com/Shougo/neocomplete.vim.git
+[submodule "vim/plugged/vim-multiple-cursors"]
+	path = vim/plugged/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "vim/plugged/vim-cucumber"]
+	path = vim/plugged/vim-cucumber
+	url = https://github.com/tpope/vim-cucumber.git
+[submodule "vim/plugged/matchit"]
+	path = vim/plugged/matchit
+	url = https://github.com/tmhedberg/matchit.git
