@@ -49,6 +49,7 @@ call plug#end()
 " Section: configuration
 
   scriptencoding utf-8
+  set t_Co=256
 
   " Colorscheme
   colorscheme gruvbox
