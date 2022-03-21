@@ -130,3 +130,5 @@ yq() {
 
 # Added by Amplify CLI binary installer
 export PATH="$HOME/.amplify/bin:$PATH"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

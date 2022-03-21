@@ -1,5 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/iures/.homesick/repos/dot-vim'
-let g:netrw_dirhist_2='/Users/iures/.homesick/repos'
-let g:netrw_dirhist_3='/Users/iures/.homesick/repos/dot-vim/home'
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/bruno/dotfiles'

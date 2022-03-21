@@ -6,7 +6,8 @@
 
 - link:
     ~/.bashrc: bashrc
-    #~/.zshrc: zshrc
+    ~/.zshrc: zshrc
+    ~/.oh-my-custom: oh-my-custom
     ~/.vim: vim
     ~/.vimrc: vimrc
 
