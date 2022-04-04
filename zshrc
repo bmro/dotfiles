@@ -107,3 +107,4 @@ export KUBECONFIG="$HOME/.kube/production-config"
 #xrandr --output DP-2 --mode 2560x1440 --rate 144.00
 #setxkbmap -option ctrl:swapcaps
 
+autoload -U compinit; compinit
