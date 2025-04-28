@@ -58,7 +58,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(gitfast z common-aliases tmux)
+#plugins=(gitfast z common-aliases tmux)
 
 export ZSH_CUSTOM="$HOME/.oh-my-custom"
 source $ZSH/oh-my-zsh.sh
@@ -108,3 +108,9 @@ export KUBECONFIG="$HOME/.kube/production-config"
 #setxkbmap -option ctrl:swapcaps
 
 autoload -U compinit; compinit
+export PATH="/opt/homebrew/bin:$PATH"
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/bruno/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
